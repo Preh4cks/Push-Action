@@ -10,6 +10,7 @@ class GitCommand {
     }
 
     //Command: git status
+    //DOCU: returns the status
     status(){        
         let change_count = 0;
         let file_paths = '';
